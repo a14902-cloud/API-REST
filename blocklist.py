@@ -1,0 +1,1 @@
+BLOCKLIST = set() # conjunto do python

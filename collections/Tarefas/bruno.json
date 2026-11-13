@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "API REST Tarefas",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

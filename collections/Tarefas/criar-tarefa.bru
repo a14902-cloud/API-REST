@@ -1,0 +1,20 @@
+meta {
+  name: criar-tarefa
+  type: http
+  seq: 4
+}
+post {
+  url: {{baseUrl}}/tarefas
+  body: json
+  auth: none
+}
+headers {
+  Authorization: Bearer {{token}}
+}
+body:json {
+  {
+    "titulo": "Preparar apresentação",
+    "descricao": "Rever os conteúdos do trabalho.",
+    "estado": "Pendente"
+  }
+}

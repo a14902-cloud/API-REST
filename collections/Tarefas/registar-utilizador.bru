@@ -1,0 +1,17 @@
+meta {
+  name: registar-utilizador
+  type: http
+  seq: 1
+}
+post {
+  url: {{baseUrl}}/registo
+  body: json
+  auth: none
+}
+body:json {
+  {
+    "username": "aluno",
+    "email": "aluno@api.pt",
+    "password": "abc123"
+  }
+}

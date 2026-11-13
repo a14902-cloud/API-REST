@@ -1,0 +1,16 @@
+meta {
+  name: login-utilizador
+  type: http
+  seq: 3
+}
+post {
+  url: {{baseUrl}}/login
+  body: json
+  auth: none
+}
+body:json {
+  {
+    "email": "aluno@api.pt",
+    "password": "abc123"
+  }
+}

@@ -1,0 +1,13 @@
+meta {
+  name: consultar-tarefa
+  type: http
+  seq: 6
+}
+get {
+  url: {{baseUrl}}/tarefas/{{tarefa_id}}
+  body: none
+  auth: none
+}
+headers {
+  Authorization: Bearer {{token}}
+}
